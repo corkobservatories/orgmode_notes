@@ -4,6 +4,9 @@
 ** Install Fedora Linux Workstation
 *** Get [[https://github.com/MartinBriza/MediaWriter][Fedora Media Writer]] from its [[https://github.com/MartinBriza/MediaWriter/releases][download page]] and create a bootable Fedora Workstation USB stick with it.
 
+#+html: <img width="150" src="Screenshots/FedoraMediaWriter_01.png" />
+
+
 *** Enable Boot from USB in BIOS
 - To enter BIOS on startup press [ESC] and then [F10] as detailed in [[https://support.hp.com/gb-en/document/c04201984][HP instructions]].
   - In the BIOS go to "Advanced" -> "Boot Options" -> "Boot Order" and make sure USB Hard Drive is first. Then exist and save.
