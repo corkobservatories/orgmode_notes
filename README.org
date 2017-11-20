@@ -2,4 +2,4 @@
 Repository for notes
 
 ** How to setup computers
-[[.Setup_HP-EliteBook-820/Setup_HP-EliteBook-820.org][HP-EliteBooks]]
+[[Setup_HP-EliteBook-820/Setup_HP-EliteBook-820.org][HP-EliteBooks]]
