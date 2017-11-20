@@ -1,0 +1,30 @@
+
+
+
+** Install Fedora Linux Workstation
+*** Get [[https://github.com/MartinBriza/MediaWriter][Fedora Media Writer]] from its [[https://github.com/MartinBriza/MediaWriter/releases][download page]] and create a bootable Fedora Workstation USB stick with it.
+
+*** Enable Boot from USB in BIOS
+- To enter BIOS on startup press [ESC] and then [F10] as detailed in [[https://support.hp.com/gb-en/document/c04201984][HP instructions]].
+  - In the BIOS go to "Advanced" -> "Boot Options" -> "Boot Order" and make sure USB Hard Drive is first. Then exist and save.
+*** Boot Fedora Live System from Stick
+- Now, the laptop should boot from inserted USB stick
+- Boot Fedora live and Select "Install to Hard Drive"
+
+*** Partition Disk
+Disk can only have four major partitions see we need to delete HP_Recovery and HP_Tools to make room for Linux Partitions!
+
+- Enter Easy Setup and check make room
+- Delete sda3 and sda4 (know what you are Doing!!!) and shrink 
+- Continue with install and Enter Root password (regular one) and create "corks" user.
+- Power down computer, remove USB key and boot.
+
+*** Setup Fedora Linux
+- During Gnome Setup sign into "corkobs@gmail.com" with regular password
+- Once logged in as "corks" user go to "Activities" and search for and open "Terminal"
+
+**** Install Software
+Go to activies and search/open software. Here install 
+- Chromium
+- 
+
