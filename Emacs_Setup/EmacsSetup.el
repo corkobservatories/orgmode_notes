@@ -10,10 +10,10 @@
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize) ;; You might already have this line
 
-(setq exec-path (append exec-path '("D:/Backup/Documents/PortableApps/Other/PortableGit/bin")))
+;; (setq exec-path (append exec-path '("D:/Backup/Documents/PortableApps/Other/PortableGit/bin")))
 (global-set-key (kbd "C-x g") 'magit-status)
 
-(setq visible-bell t)  
+(setq visible-bell t)
 
 ;; (setq lexical-binding t
 ;;         visible-bell nil
@@ -77,7 +77,7 @@
 (require 'org)
 (require 'org-habit)
 
-(setq org-startup-indented t) 
+(setq org-startup-indented t)
 (add-hook 'org-mode-hook 'turn-on-visual-line-mode)
 ;; Make Org mode work with files ending in .org
 ;; (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
@@ -111,8 +111,8 @@
 ;; Agenda views
 ;; Good tutorial: http://orgmode.org/worg/org-tutorials/org-custom-agenda-commands.html
 
-(setq org-agenda-custom-commands 
-    '( ("w" todo "WAITING" nil) 
+(setq org-agenda-custom-commands
+    '( ("w" todo "WAITING" nil)
        ("n" todo "NEXT" nil)
        ("d" . "Agenda + Next Actions")
            ("da" "all" ((agenda) (todo "NEXT") (tags "anchor") )  )
@@ -122,7 +122,7 @@
     )
     )
 
-;;  (tag "anchor") 
+;;  (tag "anchor")
 (setq org-tags-exclude-from-inheritance '("anchor"))
 
 ;; http://orgmode.org/manual/Stuck-projects.html#Stuck-projects
@@ -166,5 +166,3 @@
 (setq org-log-into-drawer t)
 (setq org-clock-into-drawer t)
 (setq org-log-done t)
-
-

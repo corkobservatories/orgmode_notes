@@ -31,6 +31,7 @@ Go to activies and search/open software. Here install
 - Chromium
 - Emacs
 - Gitg
+- ntp
 
 **** Install corkobservatoies software
 ***** Get sources from GitHub
