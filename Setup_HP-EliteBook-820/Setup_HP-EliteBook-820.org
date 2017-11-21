@@ -29,5 +29,15 @@ Disk can only have four major partitions see we need to delete HP_Recovery and H
 **** Install Software
 Go to activies and search/open software. Here install 
 - Chromium
-- 
+- Emacs
+- Gitg
+
+**** Install corkobservatoies software
+***** Get sources from GitHub
+In terminal window:
+git clone https://github.com/corkobservatories/corkobservatories.git corkobservatories
+
+***** Install Python libraries
+sudo yum install python-matplotlib
+
 
