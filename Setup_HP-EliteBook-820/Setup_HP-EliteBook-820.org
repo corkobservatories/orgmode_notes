@@ -1,6 +1,4 @@
 
-
-
 ** Install Fedora Linux Workstation
 *** Get [[https://github.com/MartinBriza/MediaWriter][Fedora Media Writer]] from its [[https://github.com/MartinBriza/MediaWriter/releases][download page]] and create a bootable Fedora Workstation USB stick with it.
 
